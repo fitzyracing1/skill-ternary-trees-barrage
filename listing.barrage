@@ -1,0 +1,43 @@
+# Skill: Ternary Trees
+
+> A Grok skill for ternary trees and ternary search trees: build, walk, prefix search, string dictionaries.
+
+## Purpose
+Explain the skill as the teacher for three-way trees. Source: fitzyracing1/skill-ternary-trees.
+
+## How it works (plain English)
+1. Load the skill.
+2. Build or walk a three-way tree.
+3. Search by prefix.
+4. Use it as a word dictionary.
+
+## Key ideas
+- Ternary tree (each node has three children)
+- Prefix search (find words that start the same)
+- Skill (instructions an agent can load)
+
+## The actual code
+```
+# source: fitzyracing1/skill-ternary-trees
+load_skill()
+build_tst()
+prefix_search()
+```
+
+## Line-by-line translation
+1. load_skill() → “open the ternary-tree instructions”
+2. build_tst() → “make the three-way search tree”
+3. prefix_search() → “find words that share a start”
+
+## Decisions the program makes
+- If a prefix is given → return matching words
+- If the tree is empty → build first
+
+## What a person would notice
+A skill that talks about three-way word trees in plain words.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the HTML skill in the source.

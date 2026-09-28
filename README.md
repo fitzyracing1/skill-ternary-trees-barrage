@@ -1,2 +1,5 @@
 # skill-ternary-trees-barrage
-Barrage plain-language clone of fitzyracing1/skill-ternary-trees
+
+Barrage clone of [fitzyracing1/skill-ternary-trees](https://github.com/fitzyracing1/skill-ternary-trees).
+
+Read [listing.barrage](listing.barrage).
